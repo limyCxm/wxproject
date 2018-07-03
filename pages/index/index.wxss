@@ -1,0 +1,164 @@
+/**index.wxss**/
+
+/* 轮播图 */
+.carsouel{
+  width: 100%;
+  height: 390rpx;
+}
+
+/* 选择项 */
+.selectBar{
+  padding: 0 30rpx;
+  height: 64rpx;
+  border: 2rpx solid #e6e6e6;
+  display: flex;
+}
+.location{
+  width: 140rpx;
+  flex: none;
+}
+.selectArg{
+  flex:1;
+}
+.location_content{
+  width: 100%;
+  height: 50rpx;
+  margin-top: 7rpx;
+  background: #f3f3f3;
+  border-radius: 25rpx;
+}
+.arg_content{
+  width: 100%;
+  height: 28rpx;
+  margin-top: 18rpx;
+  display: flex;
+  color: #8e8e8e;
+}
+.arg_item{
+  flex: 1;
+  text-align: center;
+  line-height: 28rpx;
+  position: relative;
+}
+.arg_item:not(:last-child){
+  border-right: 1rpx solid #e7e7e7;
+}
+
+/* 发起列表 */
+.actionList{
+  margin: 16rpx 20rpx;
+}
+.action_item{
+  width: 100%;
+  height: 206rpx;
+  border: 2rpx solid #e7e7e7;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.action_item:not(:first-child){
+  margin-top: 16rpx;
+}
+
+.item_content{
+  width: 100%;
+  height: 206rpx;
+  display: flex;
+}
+.item_content>.item_number{   
+  flex: none;
+  width: 166rpx;
+  position: relative;
+}
+.item_number>image{
+  width: 108rpx;
+  height: 108rpx;
+  border-radius: 54rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 46rpx;
+  border: 1px solid yellow;
+}
+.item_number>view{
+  width: 82rpx;
+  height: 34rpx;
+  border: 1px solid #ea737f;
+  border-radius: 5rpx;
+  text-align: center;
+  line-height: 34rpx;
+  font-size: 24rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 26rpx;
+  background: #fff;
+}
+.item_content>.item_activity{
+  flex: 1;
+  position: relative;
+}
+.item_activity>.activity_title{
+  font-size: 32rpx;
+  margin-top: 52rpx;
+}
+.item_activity>.activity_timeDistance{
+  color: #7d7d7d;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.item_activity>.activity_timeDistance>.time{
+  margin-right: 24rpx;
+}
+.item_activity>.activity_place{
+  color: #508db9;
+  position: absolute;
+  bottom: 22rpx;
+}
+.item_activity>.activity_place>image{
+  margin-right: 14rpx;
+}
+.item_content>.item_originator{
+  flex: none;
+  width: 160rpx;
+  color: #7d7d7d;
+  font-weight: bolder;
+  position: relative;
+}
+.item_content>.item_originator>.originator_number{
+  width: 100%;
+  line-height: 38rpx;
+  margin-top: 102rpx;
+  text-align: center;
+}
+.item_content>.item_originator>.originator_number>.nowNumber{
+  color: #d48a4d;
+  margin-right: 10rpx;
+}
+.item_content>.item_originator>.originator_number>.allNumber{
+  margin-left: 10rpx;
+}
+.item_content>.item_originator>.origin_user{
+  width: 100%;
+  height: 54rpx;
+  position: absolute;
+  bottom: 0;
+  background: #fffced;
+  border-top-left-radius: 20rpx;
+  line-height: 54rpx;
+  
+}
+.item_content>.item_originator>.origin_user>.userImg{
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 21rpx;
+  float: left;
+  margin-left: 12rpx;
+  margin-top: 6rpx;
+}
+.item_content>.item_originator>.origin_user>.honor{
+  width: 30rpx;
+  height: 24rpx;
+  float: left;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-top: 15rpx;
+}

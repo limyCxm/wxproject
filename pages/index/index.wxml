@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<view class="container">
+<view class="carsouel">
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 100%" indicator-active-color="#fbda3d">
+    <block wx:for="{{imgUrls}}" >
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" style="width: 100%;height: 390rpx;" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="selectBar">
+    <view class="location">
+        <view class="location_content">
+
+        </view>
+    </view>
+    <view class="selectArg">
+        <view class="arg_content">
+            <view class="arg_item">最快开启</view>
+            <view class="arg_item">离我最近</view>
+            <view class="arg_item">参与人数</view>
+        </view>
+    </view>
+</view>
+<view class="actionList">
+    <view class="action_item">
+        <view class="item_content">
+            <view class="item_number">
+                    <image src="../../icon/user.jpg"></image>
+                <view>6人聚</view>
+            </view>
+            <view class="item_activity">
+                <view class="activity_title">组队！百老汇音乐剧</view>
+                <view class="activity_timeDistance">
+                        <image src="../../icon/scot.png" style="width: 25rpx;height: 25rpx;"></image>
+                        <text class="time">07-14 周六</text>
+                        <image src="../../icon/scot.png" style="width: 25rpx;height: 25rpx;"></image>
+                        <text>8.7km</text>
+                </view>
+                <view class="activity_place">
+                        <image src="../../icon/location.png" style="width: 25rpx;height: 25rpx;"></image>
+                        <text>深圳保利剧院</text>
+                </view>
+            </view>
+            <view class="item_originator">
+                <view class="originator_number"><text class="nowNumber">4</text>/<text class="allNumber">6</text></view>
+                <view class="origin_user">
+                        <image src="../../icon/user.jpg" class="userImg"></image>
+                        <image src="../../icon/xz.png" class="honor"></image>
+                        <text class="honorNum">10</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="action_item">
+        
+    </view>
+    <view class="action_item">
+        
+    </view>
+    <view class="action_item">
+        
+    </view>
+</view>
+</view>

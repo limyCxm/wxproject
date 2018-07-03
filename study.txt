@@ -1,0 +1,12 @@
+小程序txt
+
+代码构成包括四个部分：
+    json设置
+    wxml模板
+    wxss样式
+    js逻辑交互
+
+1.json配置：app.json和project.config.json，此外再pages/logs/目录下还有一个logs.json
+    1.1：app.json-对当前小程序的全局配置，包括了小程序的所有页面路径，界面表现，网络超时时间，底部tab等
+
+2.wxml模板-html+css+js的组合
